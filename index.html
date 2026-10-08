@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- info -->
+<!-- info -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dr galaly Courses">
     <meta name="keywords" content="Dr galaly">
     <meta name="author" content="Dr galaly">
-    <meta http-equiv="refresh" content="@">
     <title>Dr galaly</title>
     <style>
-    body {
-      background-color: black; /* sets background to black */
-      color: rgb(228, 219, 219); /* makes text readable */
-      margin: 0; /* optional: remove default margin */
-    }
-  </style>
+        html {
+            scroll-behavior: smooth; /* smooth scrolling */
+        }
+
+        body {
+            background-color: black; /* sets background to black */
+            color: rgb(228, 219, 219); /* makes text readable */
+            margin: 0; /* optional: remove default margin */
+        }
+
+        .nav {
+            position: sticky; /* stays at the top while scrolling */
+            top: 0;
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            z-index: 10;
+        }
+
+        .nav a {
+            color: rgb(228, 219, 219);
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 6px 16px;
+            border: 1px solid rgb(228, 219, 219);
+            border-radius: 6px;
+        }
+
+        .nav a:hover {
+            background-color: rgb(228, 219, 219);
+            color: black;
+        }
+
+        h1[id] {
+            scroll-margin-top: 60px; /* keeps the heading from hiding under the sticky nav */
+        }
+    </style>
 </head>
 <body>
+
 <table border="1">
     <thead>
     <tr>
@@ -25,80 +56,97 @@
     </tr>
     </thead>
 </table>
+
+<div class="nav">
+    <a href="#physics">Physics</a>
+    <a href="#math">Math</a>
+</div>
+
 <h1 style="text-align: center;">Welcome to Dr galaly Website</h1>
+
 <div style="text-align: center;">
-<br>
-        <h1>Physics</h1>
-        <hr>
-<p>Chapter 1</p>
-<iframe src="https://drive.google.com/file/d/1DmDzBC9VsDoary1g83u4nbagNgc1V34j/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-    <p>تكملت Chapter 1</p>
-<iframe src="https://drive.google.com/file/d/1TA8bJe0qMxSaCeACRZiBftEwbqBSaqXz/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-          <p>Chapter 3</p>
-<iframe src="https://drive.google.com/file/d/1-gyszB07AXU6EH1CoxeGHekG1TnWK-2c/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-  <p>تكملت Chapter 3</p>
-<iframe src="https://drive.google.com/file/d/1nMCfx_0whHCS1TeC8U7CsHgW1Rd_an-c/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-<p>تكملت Chapter 3 (2)</p>
-<iframe src="https://drive.google.com/file/d/1Ivzni2KKbPcVYT_IAGaVqXre4SsyG1SD/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
+    <br>
+    <h1 id="physics">Physics</h1>
+    <hr>
+
+    <p>Chapter 1</p>
+    <iframe src="https://drive.google.com/file/d/1DmDzBC9VsDoary1g83u4nbagNgc1V34j/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
+    <p>تكملة Chapter 1</p>
+    <iframe src="https://drive.google.com/file/d/1TA8bJe0qMxSaCeACRZiBftEwbqBSaqXz/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
+    <p>Chapter 3</p>
+    <iframe src="https://drive.google.com/file/d/1-gyszB07AXU6EH1CoxeGHekG1TnWK-2c/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
+    <p>تكملة Chapter 3</p>
+    <iframe src="https://drive.google.com/file/d/1nMCfx_0whHCS1TeC8U7CsHgW1Rd_an-c/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
+    <p>تكملة Chapter 3 (2)</p>
+    <iframe src="https://drive.google.com/file/d/1Ivzni2KKbPcVYT_IAGaVqXre4SsyG1SD/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
 
     <br>
-        <h1>Math</h1>
-        <hr>
-<p>المحاضره الاوله</p>
-<iframe src="https://drive.google.com/file/d/1b79YFzuo7pbF93xyF-tqOz3h7w8lP1fw/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
+    <h1 id="math">Math</h1>
+    <hr>
+
+    <p>المحاضرة الأولى</p>
+    <iframe src="https://drive.google.com/file/d/1b79YFzuo7pbF93xyF-tqOz3h7w8lP1fw/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+
     <p>Chapter 1.3</p>
-<iframe src="https://drive.google.com/file/d/1BCK_mG8OtNe7wUgSQ-xcfd1NBZNPtxjo/preview" 
-        width="568" 
-        height="384" 
-        frameborder="5" 
-        webkitallowfullscreen="true" 
-        mozallowfullscreen="true" 
-        allowfullscreen>
-</iframe>
-                  
+    <iframe src="https://drive.google.com/file/d/1BCK_mG8OtNe7wUgSQ-xcfd1NBZNPtxjo/preview"
+            width="568"
+            height="384"
+            frameborder="5"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowfullscreen>
+    </iframe>
+</div>
+
 <footer style="text-align: center;">
     <p>&copy; 2025 Dr galaly. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
